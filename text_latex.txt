@@ -1,29 +1,6 @@
-\documentclass[10pt, a4paper]{book}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath,amssymb}
-\usepackage{multicol}
-\usepackage{multirow}
-\usepackage{graphicx}
-\usepackage{adjustbox}
-\usepackage{tabularx}
-\usepackage[brazil]{babel}
-\usepackage{caption}
-\usepackage{enumerate}
-\usepackage{float}
-\usepackage{helvet}
-\usepackage{booktabs}
-\usepackage[table,xcdraw]{xcolor}
-\usepackage[margin=1.5cm,headheight=26pt,includeheadfoot]{geometry}
-
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\renewcommand{\headrulewidth}{0pt}
-\newcommand\ChangeRT[1]{\noalign{\hrule height #1}}
-
-\pagenumbering{gobble}\newcommand{\titulo}{\MakeUppercase{JUKEBAR: UM APLICATIVO PARA INFLUENCIAR A ESCOLHA DE
-M⁄SICAS EM EVENTOS AO VIVO}}\newcommand{\data}{09/12/2019}\newcommand{\alunoum}{Vagner de Oliveira}\newcommand{\alunodois}{}\newcommand{\orientador}{Raphael Ramos}\begin{document}
-\lhead{\includegraphics[width=1.2cm]{img/cabecalho}\hfill \footnotesize Normas para apresentaÁ„o de Projeto Final em Sistemas de InformaÁ„o\hfill}
-\rfoot{Sistemas de InformaÁ„o - UniRedentor}
+\begin{document}
+\lhead{\includegraphics[width=1.2cm]{img/cabecalho}\hfill \footnotesize Normas para apresenta√ß√£o de Projeto Final em Sistemas de Informa√ß√£o\hfill}
+\rfoot{Sistemas de Informa√ß√£o - UniRedentor}
 \begin{center}
 \textbf{ANEXO 7}
 \end{center}
@@ -32,37 +9,41 @@ M⁄SICAS EM EVENTOS AO VIVO}}\newcommand{\data}{09/12/2019}\newcommand{\alunoum}{
 \begin{tabular}{|
 >{\columncolor[HTML]{BAC9F4}}c |}
 \hline\ChangeRT{1pt}
-\textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIA«√O DO CUMPRIMENTO DO CRONOGRAMA ñ PROFESSOR\\ DA DISCIPLINA\end{tabular}} \\\hline\ChangeRT{1pt}\end{tabular}}\end{table}
+\textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIA√á√ÉO DO CUMPRIMENTO DO CRONOGRAMA ‚Äì PROFESSOR\\ DA DISCIPLINA\end{tabular}} \\ \hline\ChangeRT{1pt}
+\end{tabular}}
+\end{table}
 \bgroup\obeylines
 \textbf{Aluno (a) 1:} \alunoum\newline
 \textbf{Aluno (a) 2:} \alunodois\newline
 \textbf{Orientador:} \orientador\newline\\ 
-\textbf{TÕTULO DO TRABALHO}\\
+\textbf{T√çTULO DO TRABALHO}\\
 \underline{\titulo}\newline\newline
 \egroup
-\textbf{CRIT…RIOS DE AVALIA«√O - Valor total 3,0 pontos}\newline
+\textbf{CRIT√âRIOS DE AVALIA√á√ÉO - Valor total 3,0 pontos}\newline
 \begin{table}[H]
-\resizebox{\textwidth}{!}{%
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|}
 \hline\ChangeRT{1pt}
 \rowcolor[HTML]{BAC9F4} 
-\textbf{CRIT…RIOS}                                                                        & \textbf{VALOR} & \textbf{VALOR ATRIBUÕDO} \\ \hline
+\textbf{CRIT√âRIOS}                                                                        & \textbf{VALOR} & \textbf{VALOR ATRIBU√çDO} \\ \hline
 \textbf{Assiduidade e Pontualidade}                                                       & \textbf{0,5}   & \textbf{}                \\ \hline
 \textbf{Desenvolvimento da Metodologia Proposta}                                          & \textbf{1,0}   & \textbf{}                \\ \hline
-\multicolumn{1}{|r|}{\textbf{AvaliaÁ„o da apresentaÁ„o segundo a metodologia cientÌfica}} & \textbf{1,5}   & \textbf{}                \\ \hline
+\multicolumn{1}{|r|}{\textbf{Avalia√ß√£o da apresenta√ß√£o segundo a metodologia cient√≠fica}} & \textbf{1,5}   & \textbf{}                \\ \hline
 \rowcolor[HTML]{BAC9F4} 
 \multicolumn{2}{|r|}{\cellcolor[HTML]{BAC9F4}\textbf{Total}}                                               & \textbf{}                \\ \hline\ChangeRT{1pt}
-\end{tabular}%
+\end{tabular}
 }
 \end{table}
-\textbf{COMENT¡RIOS E SUGEST’ES} \newline
+\textbf{COMENT√ÅRIOS E SUGEST√ïES} \newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
-\par\noindent\rule{\textwidth}{0.1pt}\newline
-\hfill Itaperuna, \data\newline\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline\\
+
+\hfill Itaperuna, \data\newline
+
 Professor da disciplina: \dotfill
 \newpage 
 \begin{center}
@@ -73,39 +54,41 @@ Professor da disciplina: \dotfill
 \begin{tabular}{|
 >{\columncolor[HTML]{BAC9F4}}c |}
 \hline\ChangeRT{1pt}
-\textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIA«√O DO CUMPRIMENTO DO CRONOGRAMA ñ ORIENTADOR\end{tabular}} \\ \hline\ChangeRT{1pt}
+\textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIA√á√ÉO DO CUMPRIMENTO DO CRONOGRAMA ‚Äì ORIENTADOR\end{tabular}} \\ \hline\ChangeRT{1pt}
 \end{tabular}}
 \end{table}
 \bgroup\obeylines
 \textbf{Aluno (a) 1:} \alunoum\newline
 \textbf{Aluno (a) 2:} \alunodois\newline
 \textbf{Orientador:} \orientador\newline\\ 
-\textbf{TÕTULO DO TRABALHO}\\
+\textbf{T√çTULO DO TRABALHO}\\
 \underline{\titulo}\newline\newline
 \egroup
-\textbf{CRIT…RIOS DE AVALIA«√O - Valor total 3,0 pontos}\newline
+\textbf{CRIT√âRIOS DE AVALIA√á√ÉO - Valor total 3,0 pontos}\newline
 \begin{table}[H]
-\resizebox{\textwidth}{!}{%
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|}
 \hline\ChangeRT{1pt}
 \rowcolor[HTML]{BAC9F4} 
-\textbf{CRIT…RIOS}                                                                        & \textbf{VALOR} & \textbf{VALOR ATRIBUÕDO} \\ \hline
+\textbf{CRIT√âRIOS}                                                                        & \textbf{VALOR} & \textbf{VALOR ATRIBU√çDO} \\ \hline
 \textbf{Assiduidade e Pontualidade}                                                       & \textbf{0,5}   & \textbf{}                \\ \hline
 \textbf{Desenvolvimento da Metodologia Proposta}                                          & \textbf{1,0}   & \textbf{}                \\ \hline
-\multicolumn{1}{|r|}{\textbf{AvaliaÁ„o da apresentaÁ„o segundo a metodologia cientÌfica}} & \textbf{1,5}   & \textbf{}                \\\hline
+\multicolumn{1}{|r|}{\textbf{Avalia√ß√£o da apresenta√ß√£o segundo a metodologia cient√≠fica}} & \textbf{1,5}   & \textbf{}                \\\hline
 \rowcolor[HTML]{BAC9F4} 
 \multicolumn{2}{|r|}{\cellcolor[HTML]{BAC9F4}\textbf{Total}}                                               & \textbf{}                \\ \hline\ChangeRT{1pt}
-\end{tabular}%
+\end{tabular}
 }
 \end{table}
-\textbf{COMENT¡RIOS E SUGEST’ES} \newline
+\textbf{COMENT√ÅRIOS E SUGEST√ïES} \newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
-\par\noindent\rule{\textwidth}{0.1pt}\newline
-\hfill Itaperuna, \data\newline\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline\\
+
+\hfill Itaperuna, \data\newline
+
 Professor da disciplina: \dotfill
 \newpage 
 \begin{center}
@@ -116,35 +99,35 @@ Professor da disciplina: \dotfill
 \begin{tabular}{|
 >{\columncolor[HTML]{BAC9F4}}c |}
 \hline\ChangeRT{0.5pt}
-\textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIA«√O - MEMBRO DA BANCA 1\end{tabular}} \\ \hline\ChangeRT{0.5pt}
+\textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIA√á√ÉO - MEMBRO DA BANCA 1\end{tabular}} \\ \hline\ChangeRT{0.5pt}
 \end{tabular}}
 \end{table}
 \bgroup\obeylines
 \textbf{Aluno (a) 1:} \alunoum\newline
 \textbf{Aluno (a) 2:} \alunodois\newline
 \textbf{Orientador:} \orientador\newline\\ 
-\textbf{TÕTULO DO TRABALHO}\\
+\textbf{T√çTULO DO TRABALHO}\\
 \underline{\titulo}\newline\newline
 \egroup
 \begin{table}[H]
-\resizebox{\textwidth}{!}{%
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|}
 \hline\ChangeRT{1pt}
 \rowcolor[HTML]{BAC9F4} 
-\textbf{ProduÁ„o Escrita - Artigo CientÌfico}     & \textbf{Valor}   & \textbf{Nota AtribuÌda} \\ \hline
-Relev‚ncia para publicaÁ„o                        & 2,0              &                         \\ \hline
-Qualidade da redaÁ„o                              & 1,0              &                         \\ \hline
-FormataÁ„o                                        & 1,0              &                         \\ \hline
-Desenvolvimento e interpretaÁ„o de dados          & 2,0              &                         \\ \hline
-ConsolidaÁ„o da conclus„o e recomendaÁıes futuras & 1,0              &                         \\ \hline
+\textbf{Produ√ß√£o Escrita - Artigo Cient√≠fico}     & \textbf{Valor}   & \textbf{Nota Atribu√≠da} \\ \hline
+Relev√¢ncia para publica√ß√£o                        & 2,0              &                         \\ \hline
+Qualidade da reda√ß√£o                              & 1,0              &                         \\ \hline
+Formata√ß√£o                                        & 1,0              &                         \\ \hline
+Desenvolvimento e interpreta√ß√£o de dados          & 2,0              &                         \\ \hline
+Consolida√ß√£o da conclus√£o e recomenda√ß√µes futuras & 1,0              &                         \\ \hline
 \rowcolor[HTML]{BAC9F4} 
-\textbf{ApresentaÁ„o Oral}                        & \textbf{Valor}   & \textbf{Nota AtribuÌda} \\ \hline
-ApresentaÁ„o audiovisual                          & 1,0                &                         \\ \hline
-DomÌnio do conte˙do                               & 1,0                &                         \\ \hline
-AdequaÁ„o ao tempo disponÌvel                     & 1,0                &                         \\ \hline
+\textbf{Apresenta√ß√£o Oral}                        & \textbf{Valor}   & \textbf{Nota Atribu√≠da} \\ \hline
+Apresenta√ß√£o audiovisual                          & 1,0                &                         \\ \hline
+Dom√≠nio do conte√∫do                               & 1,0                &                         \\ \hline
+Adequa√ß√£o ao tempo dispon√≠vel                     & 1,0                &                         \\ \hline
                                                   & Total (10,0)     &                         \\ \hline
                                                   & Total (peso 7,0) &                         \\ \hline\ChangeRT{1pt}
-\end{tabular}%
+\end{tabular}
 }
 \end{table}
 \bgroup\obeylines
@@ -162,20 +145,20 @@ AdequaÁ„o ao tempo disponÌvel                     & 1,0                &        
 \begin{tabular}{|
 >{\columncolor[HTML]{BAC9F4}}c |}
 \hline\ChangeRT{0.3pt}
-\textbf{\begin{tabular}[c]{@{}c@{}}RECOMENDA«’ES DA BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.3pt}
+\textbf{\begin{tabular}[c]{@{}c@{}}RECOMENDA√á√ïES DA BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.3pt}
 \end{tabular}}
 \end{table}
 \bgroup\obeylines
 \textbf{Aluno (a) 1:} \alunoum\newline
 \textbf{Aluno (a) 2:} \alunodois\newline
 \textbf{Orientador:} \orientador\newline\\ 
-\textbf{TÕTULO DO TRABALHO}\\
+\textbf{T√çTULO DO TRABALHO}\\
 \underline{\titulo}\newline\newline
 \egroup
-\textbf{NOTA FINAL*:} \hrulefill\\\hspace{1cm}\small\*(SomatÛrio das notas dos anexos 7, 8, e 9) dividido por 2.\\
-\textbf{SITUA«√O}: \hspace{0.1cm} \mbox{\ooalign{\cr\hidewidth$\square$\hidewidth\cr}}
-\hspace{0.1cm}\textbf{APROVADO}\hspace{0.3cm} \mbox{\ooalign{\cr\hidewidth$\square$\hidewidth\cr}} \hspace{0.1cm}\textbf{REPROVADO}\\
-\textbf{AVALIA«√O - COMENT¡RIOS E SUGEST’ES}\\
+\textbf{NOTA FINAL*:} \hrulefill\\\hspace{1cm}\small\*(Somat√≥rio das notas dos anexos 7, 8, e 9) dividido por 2.\\\\
+\textbf{SITUA√á√ÉO}: \hspace{0.1cm} \mbox{\ooalign{\cr\hidewidth$\square$\hidewidth\cr}}
+\hspace{0.1cm}\textbf{APROVADO}\hspace{0.3cm} \mbox{\ooalign{\cr\hidewidth$\square$\hidewidth\cr}} \hspace{0.1cm}\textbf{REPROVADO}\\\\
+\textbf{AVALIA√á√ÉO - COMENT√ÅRIOS E SUGEST√ïES}\\
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
@@ -199,17 +182,17 @@ AdequaÁ„o ao tempo disponÌvel                     & 1,0                &        
 \begin{tabular}{|
 >{\columncolor[HTML]{BAC9F4}}c |}
 \hline\ChangeRT{0.3pt}
-\textbf{\begin{tabular}[c]{@{}c@{}}RECOMENDA«’ES DA BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.3pt}
+\textbf{\begin{tabular}[c]{@{}c@{}}RECOMENDA√á√ïES DA BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.3pt}
 \end{tabular}}
 \end{table}
 \bgroup\obeylines
 \textbf{Aluno (a) 1:} \alunoum\newline
 \textbf{Aluno (a) 2:} \alunodois\newline
 \textbf{Orientador:} \orientador\newline\\ 
-\textbf{TÕTULO DO TRABALHO}\\
+\textbf{T√çTULO DO TRABALHO}\\
 \underline{\titulo}\newline\newline
 \egroup
-\textbf{AVALIA«√O - COMENT¡RIOS E SUGEST’ES}\\
+\textbf{AVALIA√á√ÉO - COMENT√ÅRIOS E SUGEST√ïES}\\
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
