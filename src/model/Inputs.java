@@ -3,7 +3,7 @@ package model;
 public class Inputs {
 	
 	private String nomeAluno1;
-	private String nomeAluno2;
+	private String nomeAluno2 = "";
 	private String tituloDoTrabalho;
 	private String data;
 	private String nomeOrientador;
@@ -13,6 +13,33 @@ public class Inputs {
 		setData(data);
 		setNomeOrientador(orientador);
 		setNomeAluno1(aluno);
+	}
+	
+	public Inputs() {}
+	
+	public Inputs addTitulo(String titulo) {
+		setTituloDoTrabalho(titulo);
+		return this;
+	}
+	
+	public Inputs addOrientador(String orientador) {
+		setNomeOrientador(orientador);
+		return this;
+	}
+	
+	public Inputs addData(String data) {
+		setData(data);
+		return this;
+	}
+	
+	public Inputs addAluno1(String aluno) {
+		setNomeAluno1(aluno);
+		return this;
+	}
+	
+	public Inputs addAluno2(String aluno) {
+		setNomeAluno2(aluno);
+		return this;
 	}
 	
 	public String getNomeAluno1() {
@@ -44,6 +71,10 @@ public class Inputs {
 	}
 	public void setNomeOrientador(String nomeOrientador) {
 		this.nomeOrientador = nomeOrientador;
+	}
+
+	public static Inputs newInstance() {
+		return new Inputs();
 	}
 	
 	
