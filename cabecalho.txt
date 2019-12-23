@@ -1,0 +1,23 @@
+\documentclass[12pt, a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{tabularx}
+\usepackage[brazil]{babel}
+\usepackage{caption}
+\usepackage{enumerate}
+\usepackage{float}
+\usepackage{helvet}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage{indentfirst}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[margin=1.5cm,headheight=26pt,includeheadfoot]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand\ChangeRT[1]{\noalign{\hrule height #1}}
+\pagenumbering{gobble}

@@ -9,8 +9,8 @@ import java.io.PrintStream;
 public class FileUtils {
 
 	public static void create(String name, String text) {
-		String title = name.split(" ")[0];
-		File file = new File(title+".tex");
+		name = name.toLowerCase().trim();
+		File file = new File("10-" +name+".tex");
         try {
         	file.createNewFile();
         	write(file, text);
@@ -23,5 +23,10 @@ public class FileUtils {
 		try (PrintStream out = new PrintStream(new FileOutputStream(file))) {
 		    out.print(text);
 		}
+	}
+	
+
+	public static void clean() {
+		
 	}
 }

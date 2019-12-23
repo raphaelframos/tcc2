@@ -1,4 +1,26 @@
-\begin{document}
+\documentclass[11pt, a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{tabularx}
+\usepackage[brazil]{babel}
+\usepackage{caption}
+\usepackage{enumerate}
+\usepackage{float}
+\usepackage{helvet}
+\usepackage{booktabs}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[margin=1.5cm,headheight=26pt,includeheadfoot]{geometry}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand\ChangeRT[1]{\noalign{\hrule height #1}}
+
+\pagenumbering{gobble}\newcommand{\titulo}{\MakeUppercase{JUKEBAR: UM APLICATIVO PARA INFLUENCIAR A ESCOLHA DE MÚSICAS EM EVENTOS AO VIVO}}\newcommand{\data}{09/12/2019}\newcommand{\alunoum}{Vagner de Oliveira}\newcommand{\alunodois}{}\newcommand{\orientador}{Raphael Ferreira Ramos}\begin{document}
 \lhead{\includegraphics[width=1.2cm]{img/cabecalho}\hfill \footnotesize Normas para apresentação de Projeto Final em Sistemas de Informação\hfill}
 \rfoot{Sistemas de Informação - UniRedentor}
 \begin{center}
@@ -12,14 +34,14 @@
 \textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIAÇÃO DO CUMPRIMENTO DO CRONOGRAMA – PROFESSOR\\ DA DISCIPLINA\end{tabular}} \\ \hline\ChangeRT{1pt}
 \end{tabular}}
 \end{table}
-
-\textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\\\
+\bgroup\obeylines
+\textbf{Aluno (a) 1:} \alunoum\newline
+\textbf{Aluno (a) 2:} \alunodois\newline
+\textbf{Orientador:} \orientador\newline\\ 
 \textbf{TÍTULO DO TRABALHO}\\
-\emph{\titulo}\newline\\
-
-\textbf{CRITÉRIOS DE AVALIAÇÃO - Valor total 3,0 pontos}
+\emph{\titulo}\newline\newline
+\egroup
+\textbf{CRITÉRIOS DE AVALIAÇÃO - Valor total 3,0 pontos}\newline
 \begin{table}[H]
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|}
@@ -40,9 +62,10 @@
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline\\
 
-\hfill Itaperuna, \data\newline\newline
-\vfill
+\hfill Itaperuna, \data\newline
+
 Professor da disciplina: \dotfill
 \newpage 
 \begin{center}
@@ -56,13 +79,13 @@ Professor da disciplina: \dotfill
 \textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIAÇÃO DO CUMPRIMENTO DO CRONOGRAMA – ORIENTADOR\end{tabular}} \\ \hline\ChangeRT{1pt}
 \end{tabular}}
 \end{table}
-
-\textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\\\
+\bgroup\obeylines
+\textbf{Aluno (a) 1:} \alunoum\newline
+\textbf{Aluno (a) 2:} \alunodois\newline
+\textbf{Orientador:} \orientador\newline\\ 
 \textbf{TÍTULO DO TRABALHO}\\
-\emph{\titulo}\newline\\
-
+\emph{\titulo}\newline\newline
+\egroup
 \textbf{CRITÉRIOS DE AVALIAÇÃO - Valor total 3,0 pontos}\newline
 \begin{table}[H]
 \resizebox{\textwidth}{!}{
@@ -84,11 +107,11 @@ Professor da disciplina: \dotfill
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline\\
 
-\hfill Itaperuna, \data\newline\newline
-\vfill
+\hfill Itaperuna, \data\newline
+
 Professor da disciplina: \dotfill
-
 \newpage 
 \begin{center}
 \textbf{ANEXO 9-a}
@@ -101,13 +124,13 @@ Professor da disciplina: \dotfill
 \textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIAÇÃO - MEMBRO DA BANCA 1\end{tabular}} \\ \hline\ChangeRT{0.5pt}
 \end{tabular}}
 \end{table}
-
-\textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\\\
+\bgroup\obeylines
+\textbf{Aluno (a) 1:} \alunoum\newline
+\textbf{Aluno (a) 2:} \alunodois\newline
+\textbf{Orientador:} \orientador\newline\\ 
 \textbf{TÍTULO DO TRABALHO}\\
-\emph{\titulo}\newline\\
-
+\emph{\titulo}\newline\newline
+\egroup
 \begin{table}[H]
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|}
@@ -135,6 +158,7 @@ Adequação ao tempo disponível                     & 1,0                &     
 \textbf{Avaliador:}  \dotfill\newline \\
 \hfill Itaperuna, \data
 \egroup
+\newpage 
 
 \newpage 
 \begin{center}
@@ -148,15 +172,15 @@ Adequação ao tempo disponível                     & 1,0                &     
 \textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIAÇÃO - MEMBRO DA BANCA 2\end{tabular}} \\ \hline\ChangeRT{0.5pt}
 \end{tabular}}
 \end{table}
-
-\textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\\\
+\bgroup\obeylines
+\textbf{Aluno (a) 1:} \alunoum\newline
+\textbf{Aluno (a) 2:} \alunodois\newline
+\textbf{Orientador:} \orientador\newline\\ 
 \textbf{TÍTULO DO TRABALHO}\\
-\emph{\titulo}\newline\\
-
+\underline{\titulo}\newline\newline
+\egroup
 \begin{table}[H]
-\resizebox{\textwidth}{!}{
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{|c|c|c|}
 \hline\ChangeRT{1pt}
 \rowcolor[HTML]{BAC9F4} 
@@ -173,7 +197,7 @@ Domínio do conteúdo                               & 1,0                &      
 Adequação ao tempo disponível                     & 1,0                &                         \\ \hline
                                                   & Total (10,0)     &                         \\ \hline
                                                   & Total (peso 7,0) &                         \\ \hline\ChangeRT{1pt}
-\end{tabular}
+\end{tabular}%
 }
 \end{table}
 \bgroup\obeylines
@@ -182,8 +206,6 @@ Adequação ao tempo disponível                     & 1,0                &     
 \textbf{Avaliador:}  \dotfill\newline \\
 \hfill Itaperuna, \data
 \egroup
-
-\newpage 
 \begin{center}
 \textbf{ANEXO 10-a}\\\textbf{Via da Banca Examinadora}
 \end{center}
@@ -195,24 +217,23 @@ Adequação ao tempo disponível                     & 1,0                &     
 \textbf{\begin{tabular}[c]{@{}c@{}}RECOMENDAÇÕES DA BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.3pt}
 \end{tabular}}
 \end{table}
-
-\textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\
+\bgroup\obeylines
+\textbf{Aluno (a) 1:} \alunoum\newline
+\textbf{Aluno (a) 2:} \alunodois\newline
+\textbf{Orientador:} \orientador\newline\\ 
 \textbf{TÍTULO DO TRABALHO}\\
-\emph{\titulo}\newline
-
-\textbf{NOTA FINAL*:} \hrulefill\\\hspace{1cm}\small$\ast$(Somatório das notas dos anexos 7, 8, 9-a e 9-b) dividido por 2.\\
-
+\emph{\titulo}\newline\newline
+\egroup
+\textbf{NOTA FINAL*:} \hrulefill\\\hspace{1cm}\small\*(Somatório das notas dos anexos 7, 8, e 9) dividido por 2.\\\\
 \textbf{SITUAÇÃO}: \hspace{0.1cm} \mbox{\ooalign{\cr\hidewidth$\square$\hidewidth\cr}}
-\hspace{0.1cm}\textbf{APROVADO}\hspace{0.3cm} \mbox{\ooalign{\cr\hidewidth$\square$\hidewidth\cr}} \hspace{0.1cm}\textbf{REPROVADO}\\
-
+\hspace{0.1cm}\textbf{APROVADO}\hspace{0.3cm} \mbox{\ooalign{\cr\hidewidth$\square$\hidewidth\cr}} \hspace{0.1cm}\textbf{REPROVADO}\\\\
 \textbf{AVALIAÇÃO - COMENTÁRIOS E SUGESTÕES}\\
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
-
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline
 \bgroup\obeylines
 \textbf{Professor Orientador:} \dotfill \newline
 \textbf{Avaliador 2:} \dotfill \newline
@@ -233,14 +254,16 @@ Adequação ao tempo disponível                     & 1,0                &     
 \textbf{\begin{tabular}[c]{@{}c@{}}RECOMENDAÇÕES DA BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.3pt}
 \end{tabular}}
 \end{table}
-
-\textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\\\
+\bgroup\obeylines
+\textbf{Aluno (a) 1:} \alunoum\newline
+\textbf{Aluno (a) 2:} \alunodois\newline
+\textbf{Orientador:} \orientador\newline\\ 
 \textbf{TÍTULO DO TRABALHO}\\
-\emph{\titulo}\newline\\
-
+\emph{\titulo}\newline\newline
+\egroup
 \textbf{AVALIAÇÃO - COMENTÁRIOS E SUGESTÕES}\\
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
 \par\noindent\rule{\textwidth}{0.1pt}\newline
@@ -253,106 +276,4 @@ Adequação ao tempo disponível                     & 1,0                &     
 \textbf{Aluno (a) 2:} \dotfill\newline \\
 \hfill Itaperuna, \data
 \egroup
-
-\newpage 
-\begin{center}
-\textbf{ANEXO 11}
-\end{center}
-\begin{table}[H]
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|
->{\columncolor[HTML]{BAC9F4}}c |}
-\hline\ChangeRT{0.5pt}
-\textbf{\begin{tabular}[c]{@{}c@{}}DECLARAÇÃO DE PARTICIPAÇÃO EM BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.5pt}
-\end{tabular}}
-\end{table}
-\vspace{0.5cm}
-
-\bgroup\obeylines
-
-\begin{center}
-\emph{\textbf{DECLARAÇÃO}}
-\end{center}
-\vspace{1cm}
-\hspace{1cm}Declaramos, para os devidos fins, que o professor \textbf{\profum}\hspace{1mm}participou como examinador da defesa do trabalho intitulado \titulo, desenvolvido pelos alunos \emph{\alunoum}\hspace{1mm}e \emph{\alunodois}, regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso de Sistemas de Informação do Centro Universitário Redentor.
-\egroup
-
-\vspace{3cm}
-
-\hfill Itaperuna, \datacompleta
-\vfill 
-\begin{center}
-\bgroup\obeylines
-\noindent\rule{17cm}{0.4pt}
-Professor de Trabalho de Conclusão II e Coordenador do Curso de Sistemas de Informação
-\egroup
-\end{center}
-
-\newpage 
-\begin{center}
-\textbf{ANEXO 11}
-\end{center}
-\begin{table}[H]
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|
->{\columncolor[HTML]{BAC9F4}}c |}
-\hline\ChangeRT{0.5pt}
-\textbf{\begin{tabular}[c]{@{}c@{}}DECLARAÇÃO DE PARTICIPAÇÃO EM BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.5pt}
-\end{tabular}}
-\end{table}
-\vspace{0.5cm}
-
-\bgroup\obeylines
-
-\begin{center}
-\emph{\textbf{DECLARAÇÃO}}
-\end{center}
-\vspace{1cm}
-
-\hspace{1cm}Declaramos, para os devidos fins, que o professor \textbf{\profdois}\hspace{1mm}participou como examinador da defesa do trabalho intitulado \titulo, desenvolvido pelos alunos \emph{\alunoum}\hspace{1mm}e \emph{\alunodois}, regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso de Sistemas de Informação do Centro Universitário Redentor.
-\egroup
-
-\vspace{3cm}
-
-\hfill Itaperuna, \datacompleta
-\vfill 
-\begin{center}
-\bgroup\obeylines
-\noindent\rule{17cm}{0.4pt}
-Professor de Trabalho de Conclusão II e Coordenador do Curso de Sistemas de Informação
-\egroup
-\end{center}
-
-\newpage 
-\begin{center}
-\textbf{ANEXO 12}
-\end{center}
-\begin{table}[H]
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|
->{\columncolor[HTML]{BAC9F4}}c |}
-\hline\ChangeRT{0.5pt}
-\textbf{\begin{tabular}[c]{@{}c@{}}DECLARAÇÃO DE PARTICIPAÇÃO EM BANCA EXAMINADORA - ORIENTADOR\end{tabular}} \\ \hline\ChangeRT{0.5pt}
-\end{tabular}}
-\end{table}
-\vspace{0.5cm}
-
-\bgroup\obeylines
-\begin{center}
-\emph{\textbf{DECLARAÇÃO}}
-\end{center}
-\vspace{1cm}
-\hspace{1cm}Declaramos, para os devidos fins, que o professor \textbf{\orientador}\hspace{1mm}participou como presidente da banca da defesa do trabalho intitulado \titulo, desenvolvido pelos alunos \emph{\alunoum}\hspace{1mm}e \emph{\alunodois}, regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso de Sistemas de Informação do Centro Universitário Redentor.
-\egroup
-
-\vspace{3cm}
-
-\hfill Itaperuna, \datacompleta
-\vfill 
-\begin{center}
-\bgroup\obeylines
-\noindent\rule{17cm}{0.4pt}
-Professor de Trabalho de Conclusão II e Coordenador do Curso de Sistemas de Informação
-\egroup
-\end{center}
 \end{document}

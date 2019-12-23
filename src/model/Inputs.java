@@ -7,6 +7,9 @@ public class Inputs {
 	private String tituloDoTrabalho;
 	private String data;
 	private String nomeOrientador;
+	private String prof1;
+	private String prof2;
+	private String dataCompleta;
 	
 	public Inputs(String titulo, String data, String orientador, String aluno) {
 		setTituloDoTrabalho(titulo);
@@ -39,6 +42,21 @@ public class Inputs {
 	
 	public Inputs addAluno2(String aluno) {
 		setNomeAluno2(aluno);
+		return this;
+	}
+	
+	public Inputs addProf2(String prof) {
+		setProf2(prof);
+		return this;
+	}
+	
+	public Inputs addProf1(String prof) {
+		setProf1(prof);
+		return this;
+	}
+	
+	public Inputs addDataCompleta(String data) {
+		setDataCompleta(data);
 		return this;
 	}
 	
@@ -75,6 +93,30 @@ public class Inputs {
 
 	public static Inputs newInstance() {
 		return new Inputs();
+	}
+
+	public String getProf1() {
+		return prof1;
+	}
+
+	public void setProf1(String prof1) {
+		this.prof1 = prof1;
+	}
+
+	public String getProf2() {
+		return prof2;
+	}
+
+	public void setProf2(String prof2) {
+		this.prof2 = prof2;
+	}
+
+	public String getDataCompleta() {
+		return dataCompleta;
+	}
+
+	public void setDataCompleta(String dataCompleta) {
+		this.dataCompleta = dataCompleta;
 	}
 	
 	
