@@ -95,43 +95,28 @@ public class Main {
 			text.append("\\newcommand{\\profum}{"+inputs.getProf1()+"}");
 			text.append("\\newcommand{\\profdois}{"+inputs.getProf2()+"}");
 			text.append(TextUtils.createPartOne());
-			if(inputs.possuiDoisAlunos()){
-				text.append("\\noindent\\textbf{Aluno (a) 2:} \\alunodois\\newline\\");
-			}
+			createSecondStudent(inputs, text);
 			text.append(TextUtils.createPartTwo());
-			if(inputs.possuiDoisAlunos()){
-				text.append("\\noindent\\textbf{Aluno (a) 2:} \\alunodois\\newline\\");
-			}
+			createSecondStudent(inputs, text);
 			text.append(TextUtils.createPartThree());
-			if(inputs.possuiDoisAlunos()){
-				text.append("\\noindent\\textbf{Aluno (a) 2:} \\alunodois\\newline\\");
-			}
+			createSecondStudent(inputs, text);
 			text.append(TextUtils.createPartFour());
-			if(inputs.possuiDoisAlunos()){
-				text.append("\\noindent\\textbf{Aluno (a) 2:} \\alunodois\\newline\\");
-			}
-			
+			createSecondStudent(inputs, text);
 			text.append(TextUtils.createPartFive());
-			if(inputs.possuiDoisAlunos()){
-				text.append("\\noindent\\textbf{Aluno (a) 2:} \\alunodois\\newline\\");
-			}
-			
+			createSecondStudent(inputs, text);
 			text.append(TextUtils.createPartSix());
-			if(inputs.possuiDoisAlunos()){
-				text.append("\\noindent\\textbf{Aluno (a) 2:} \\alunodois\\newline\\");
-			}
-			
+			createSecondStudent(inputs, text);
 			text.append(TextUtils.createPartSeven());
 			if(inputs.possuiDoisAlunos()){
 				text.append("\\hspace{1cm}Declaramos, para os devidos fins, que o professor "
 						+ "\\textbf{\\profum}\\hspace{1mm}participou como examinador da defesa do trabalho intitulado "
-						+ "\\titulo, desenvolvido pelos alunos \\emph{\\alunoum}\\hspace{1mm}e \\emph{\\alunodois}, "
+						+ "\\titulo, desenvolvido pelos alunos \\emph{\\alunoum}\\hspace{0.7mm}e \\emph{\\alunodois}, "
 						+ "regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso "
 						+ "de Sistemas de Informação do Centro Universitário Redentor.");
 			}else{
 				text.append("\\hspace{1cm}Declaramos, para os devidos fins, que o professor "
 						+ "\\textbf{\\profum}\\hspace{1mm}participou como examinador da defesa do trabalho intitulado "
-						+ "\\titulo, desenvolvido pelo aluno \\emph{\\alunoum}\\hspace{1mm}, "
+						+ "\\titulo, desenvolvido pelo aluno \\emph{\\alunoum}, "
 						+ "regularmente matriculado na disciplina Trabalho de Conclusão de Curso II do 8º período do curso "
 						+ "de Sistemas de Informação do Centro Universitário Redentor.");
 			}
@@ -140,13 +125,13 @@ public class Main {
 			if(inputs.possuiDoisAlunos()){
 				text.append("\\hspace{1cm}Declaramos, para os devidos fins, que o professor "
 						+ "\\textbf{\\profum}\\hspace{1mm}participou como examinador da defesa do trabalho intitulado "
-						+ "\\titulo, desenvolvido pelos alunos \\emph{\\alunoum}\\hspace{1mm}e \\emph{\\alunodois}, "
+						+ "\\titulo, desenvolvido pelos alunos \\emph{\\alunoum}\\hspace{0.7mm}e \\emph{\\alunodois}, "
 						+ "regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso "
 						+ "de Sistemas de Informação do Centro Universitário Redentor.");
 			}else{
 				text.append("\\hspace{1cm}Declaramos, para os devidos fins, que o professor "
 						+ "\\textbf{\\profum}\\hspace{1mm}participou como examinador da defesa do trabalho intitulado "
-						+ "\\titulo, desenvolvido pelo aluno \\emph{\\alunoum}\\hspace{1mm}, "
+						+ "\\titulo, desenvolvido pelo aluno \\emph{\\alunoum}, "
 						+ "regularmente matriculado na disciplina Trabalho de Conclusão de Curso II do 8º período do curso "
 						+ "de Sistemas de Informação do Centro Universitário Redentor.");
 			}
@@ -155,13 +140,13 @@ public class Main {
 			if(inputs.possuiDoisAlunos()){
 				text.append("\\hspace{1cm}Declaramos, para os devidos fins, que o professor "
 						+ "\\textbf{\\profum}\\hspace{1mm}participou como presidente da defesa do trabalho intitulado "
-						+ "\\titulo, desenvolvido pelos alunos \\emph{\\alunoum}\\hspace{1mm}e \\emph{\\alunodois}, "
+						+ "\\titulo, desenvolvido pelos alunos \\emph{\\alunoum}\\hspace{0.7mm}e \\emph{\\alunodois}, "
 						+ "regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso "
 						+ "de Sistemas de Informação do Centro Universitário Redentor.");
 			}else{
 				text.append("\\hspace{1cm}Declaramos, para os devidos fins, que o professor "
 						+ "\\textbf{\\profum}\\hspace{1mm}participou como presidente da defesa do trabalho intitulado "
-						+ "\\titulo, desenvolvido pelo aluno \\emph{\\alunoum}\\hspace{1mm}, "
+						+ "\\titulo, desenvolvido pelo aluno \\emph{\\alunoum}, "
 						+ "regularmente matriculado na disciplina Trabalho de Conclusão de Curso II do 8º período do curso "
 						+ "de Sistemas de Informação do Centro Universitário Redentor.");
 			}
@@ -172,6 +157,15 @@ public class Main {
 
 			FileUtils.create(inputs.getNomeAluno1(), text.toString());
 			
+		}
+	}
+
+	private static void createSecondStudent(Inputs inputs, StringBuilder text) {
+		if(inputs.possuiDoisAlunos()){
+			text.append("\\noindent\\textbf{Aluno(a) 1:} \\alunoum\\newline\\\\");
+			text.append("\\noindent\\textbf{Aluno(a) 2:} \\alunodois\\newline\\\\");
+		}else{
+			text.append("\\textbf{Aluno(a):} \\alunoum\\newline\\\\");
 		}
 	}
 
