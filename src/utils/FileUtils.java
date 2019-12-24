@@ -27,6 +27,23 @@ public class FileUtils {
 	
 
 	public static void clean() {
-		
+		File[] pathnames;
+
+        // Creates a new File instance by converting the given pathname string
+        // into an abstract pathname
+        File f = new File(System.getProperty("user.dir"));
+
+        // Populates the array with names of files and directories
+        pathnames = f.listFiles();
+
+        for (File file : pathnames) {
+
+        	if(file.getName().contains(".tex") || file.getName().contains(".pdf") || file.getName().contains(".log") || 
+        			file.getName().contains(".aux") || file.getName().contains("synctex.gz")){
+        		file.delete();
+        		System.out.println("Delete " + file.getName());
+        	}
+            
+        }
 	}
 }

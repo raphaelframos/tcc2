@@ -118,6 +118,10 @@ public class Inputs {
 	public void setDataCompleta(String dataCompleta) {
 		this.dataCompleta = dataCompleta;
 	}
+
+	public boolean possuiDoisAlunos() {
+		return !getNomeAluno1().isEmpty() && !getNomeAluno2().isEmpty();
+	}
 	
 	
 

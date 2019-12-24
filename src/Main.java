@@ -72,7 +72,12 @@ public class Main {
 		list.add(inputs4);
 		list.add(inputs5);
 		list.add(inputs6);
-		create(list);
+		cleanFolder();
+	//	create(list);
+	}
+
+	private static void cleanFolder() {
+		FileUtils.clean();
 	}
 
 	private static void create(List<Inputs> list) {
@@ -82,7 +87,9 @@ public class Main {
 			text.append("\\newcommand{\\titulo}{\\MakeUppercase{"+inputs.getTituloDoTrabalho()+"}}");
 			text.append("\\newcommand{\\data}{"+inputs.getData()+"}");
 			text.append("\\newcommand{\\alunoum}{"+inputs.getNomeAluno1()+"}");
-			text.append("\\newcommand{\\alunodois}{"+inputs.getNomeAluno2()+"}");
+			if(inputs.possuiDoisAlunos()){
+				text.append("\\newcommand{\\alunodois}{"+inputs.getNomeAluno2()+"}");
+			}
 			text.append("\\newcommand{\\orientador}{"+inputs.getNomeOrientador()+"}");
 			text.append("\\newcommand{\\datacompleta}{"+inputs.getDataCompleta()+"}");
 			text.append("\\newcommand{\\profum}{"+inputs.getProf1()+"}");
