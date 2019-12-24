@@ -1,0 +1,33 @@
+\egroup
+
+\vspace{3cm}
+
+\hfill Itaperuna, \datacompleta
+\vfill 
+\begin{center}
+\bgroup\obeylines
+\noindent\rule{17cm}{0.4pt}
+Professor de Trabalho de Conclusão II e Coordenador do Curso de Sistemas de Informação
+\egroup
+\end{center}
+
+\newpage 
+\begin{center}
+\textbf{ANEXO 11}
+\end{center}
+\begin{table}[H]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|
+>{\columncolor[HTML]{BAC9F4}}c |}
+\hline\ChangeRT{0.5pt}
+\textbf{\begin{tabular}[c]{@{}c@{}}DECLARAÇÃO DE PARTICIPAÇÃO EM BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.5pt}
+\end{tabular}}
+\end{table}
+\vspace{0.5cm}
+
+\bgroup\obeylines
+
+\begin{center}
+\emph{\textbf{DECLARAÇÃO}}
+\end{center}
+\vspace{1cm}

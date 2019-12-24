@@ -1,0 +1,39 @@
+
+\textbf{Orientador:} \orientador\newline\\\\
+\textbf{TÍTULO DO TRABALHO}\\
+\emph{\titulo}\newline\\
+
+\textbf{AVALIAÇÃO - COMENTÁRIOS E SUGESTÕES}\\
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+\bgroup\obeylines
+\textbf{Professor Orientador:} \dotfill \newline
+\textbf{Avaliador 2:} \dotfill \newline
+\textbf{Avaliador 3:} \dotfill \newline
+\textbf{Aluno (a) 1:} \dotfill\newline 
+\textbf{Aluno (a) 2:} \dotfill\newline \\
+\hfill Itaperuna, \data
+\egroup
+
+\newpage 
+\begin{center}
+\textbf{ANEXO 11}
+\end{center}
+\begin{table}[H]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|
+>{\columncolor[HTML]{BAC9F4}}c |}
+\hline\ChangeRT{0.5pt}
+\textbf{\begin{tabular}[c]{@{}c@{}}DECLARAÇÃO DE PARTICIPAÇÃO EM BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.5pt}
+\end{tabular}}
+\end{table}
+\vspace{0.5cm}
+
+\bgroup\obeylines
+
+\begin{center}
+\emph{\textbf{DECLARAÇÃO}}
+\end{center}
+\vspace{1cm}

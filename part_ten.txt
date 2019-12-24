@@ -1,0 +1,15 @@
+
+
+\egroup
+
+\vspace{3cm}
+
+\hfill Itaperuna, \datacompleta
+\vfill 
+\begin{center}
+\bgroup\obeylines
+\noindent\rule{17cm}{0.4pt}
+Professor de Trabalho de Conclusão II e Coordenador do Curso de Sistemas de Informação
+\egroup
+\end{center}
+\end{document}

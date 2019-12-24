@@ -1,0 +1,46 @@
+\textbf{Orientador:} \orientador\newline\\\\
+\textbf{TÍTULO DO TRABALHO}\\
+\emph{\titulo}\newline\\
+
+\begin{table}[H]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|}
+\hline\ChangeRT{1pt}
+\rowcolor[HTML]{BAC9F4} 
+\textbf{Produção Escrita - Artigo Científico}     & \textbf{Valor}   & \textbf{Nota Atribuída} \\ \hline
+Relevância para publicação                        & 2,0              &                         \\ \hline
+Qualidade da redação                              & 1,0              &                         \\ \hline
+Formatação                                        & 1,0              &                         \\ \hline
+Desenvolvimento e interpretação de dados          & 2,0              &                         \\ \hline
+Consolidação da conclusão e recomendações futuras & 1,0              &                         \\ \hline
+\rowcolor[HTML]{BAC9F4} 
+\textbf{Apresentação Oral}                        & \textbf{Valor}   & \textbf{Nota Atribuída} \\ \hline
+Apresentação audiovisual                          & 1,0                &                         \\ \hline
+Domínio do conteúdo                               & 1,0                &                         \\ \hline
+Adequação ao tempo disponível                     & 1,0                &                         \\ \hline
+                                                  & Total (10,0)     &                         \\ \hline
+                                                  & Total (peso 7,0) &                         \\ \hline\ChangeRT{1pt}
+\end{tabular}
+}
+\end{table}
+\bgroup\obeylines
+\textbf{Professor Orientador:} \dotfill \newline
+\textbf{Professor da Disciplina:} \dotfill \newline
+\textbf{Avaliador:}  \dotfill\newline \\
+\hfill Itaperuna, \data
+\egroup
+
+\newpage 
+\begin{center}
+\textbf{ANEXO 9-b}
+\end{center}
+\begin{table}[H]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|
+>{\columncolor[HTML]{BAC9F4}}c |}
+\hline\ChangeRT{0.5pt}
+\textbf{\begin{tabular}[c]{@{}c@{}}FICHA DE AVALIAÇÃO - MEMBRO DA BANCA 2\end{tabular}} \\ \hline\ChangeRT{0.5pt}
+\end{tabular}}
+\end{table}
+
+\textbf{Aluno (a) 1:} \alunoum\newline\\

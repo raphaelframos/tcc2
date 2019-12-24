@@ -1,0 +1,37 @@
+\textbf{Orientador:} \orientador\newline\\
+\textbf{TÍTULO DO TRABALHO}\\
+\emph{\titulo}\newline
+
+\textbf{NOTA FINAL*:} \hrulefill\\\hspace{1cm}\small$\ast$(Somatório das notas dos anexos 7, 8, 9-a e 9-b) dividido por 2.\\
+
+\textbf{SITUAÇÃO}: \hspace{0.1cm} \mbox{\ooalign{\cr\hidewidth$\square$\hidewidth\cr}}
+\hspace{0.1cm}\textbf{APROVADO}\hspace{0.3cm} \mbox{\ooalign{\cr\hidewidth$\square$\hidewidth\cr}} \hspace{0.1cm}\textbf{REPROVADO}\\
+
+\textbf{AVALIAÇÃO - COMENTÁRIOS E SUGESTÕES}\\
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+\par\noindent\rule{\textwidth}{0.1pt}\newline
+
+\bgroup\obeylines
+\textbf{Professor Orientador:} \dotfill \newline
+\textbf{Avaliador 2:} \dotfill \newline
+\textbf{Avaliador 3:} \dotfill \newline
+\textbf{Aluno (a) 1:} \dotfill\newline 
+\textbf{Aluno (a) 2:} \dotfill\newline \\
+\hfill Itaperuna, \data
+\egroup
+\newpage 
+\begin{center}
+\textbf{ANEXO 10-b}\\\textbf{Via dos Alunos}
+\end{center}
+\begin{table}[H]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|
+>{\columncolor[HTML]{BAC9F4}}c |}
+\hline\ChangeRT{0.3pt}
+\textbf{\begin{tabular}[c]{@{}c@{}}RECOMENDAÇÕES DA BANCA EXAMINADORA\end{tabular}} \\ \hline\ChangeRT{0.3pt}
+\end{tabular}}
+\end{table}
+
+\textbf{Aluno (a) 1:} \alunoum\newline\\

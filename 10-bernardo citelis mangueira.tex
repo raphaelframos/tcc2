@@ -1,4 +1,27 @@
-\begin{document}
+\documentclass[12pt, a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{tabularx}
+\usepackage[brazil]{babel}
+\usepackage{caption}
+\usepackage{enumerate}
+\usepackage{float}
+\usepackage{helvet}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage{indentfirst}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[margin=1.5cm,headheight=26pt,includeheadfoot]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand\ChangeRT[1]{\noalign{\hrule height #1}}
+\pagenumbering{gobble}
+\newcommand{\titulo}{\MakeUppercase{Estudo e análise de ferramentas anti-trapaça do jogo counter-strike: global offensive}}\newcommand{\data}{10/12/2019}\newcommand{\alunoum}{Bernardo Citelis Mangueira}\newcommand{\alunodois}{Ediandro Ferreira}\newcommand{\orientador}{Fábio Machado}\newcommand{\datacompleta}{10 de dezembro de 2019}\newcommand{\profum}{Ítalo Coutinho dos Santos}\newcommand{\profdois}{Thiago Ximenes}\begin{document}
 \lhead{\includegraphics[width=1.2cm]{img/cabecalho}\hfill \footnotesize Normas para apresentação de Projeto Final em Sistemas de Informação\hfill}
 \rfoot{Sistemas de Informação - UniRedentor}
 \begin{center}
@@ -14,8 +37,7 @@
 \end{table}
 
 \textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\\\
+\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\textbf{Orientador:} \orientador\newline\\\\
 \textbf{TÍTULO DO TRABALHO}\\
 \emph{\titulo}\newline\\
 
@@ -58,8 +80,7 @@ Professor da disciplina: \dotfill
 \end{table}
 
 \textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\\\
+\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\textbf{Orientador:} \orientador\newline\\\\
 \textbf{TÍTULO DO TRABALHO}\\
 \emph{\titulo}\newline\\
 
@@ -103,8 +124,7 @@ Professor da disciplina: \dotfill
 \end{table}
 
 \textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\\\
+\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\textbf{Orientador:} \orientador\newline\\\\
 \textbf{TÍTULO DO TRABALHO}\\
 \emph{\titulo}\newline\\
 
@@ -150,8 +170,7 @@ Adequação ao tempo disponível                     & 1,0                &     
 \end{table}
 
 \textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\\\
+\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\textbf{Orientador:} \orientador\newline\\\\
 \textbf{TÍTULO DO TRABALHO}\\
 \emph{\titulo}\newline\\
 
@@ -197,8 +216,7 @@ Adequação ao tempo disponível                     & 1,0                &     
 \end{table}
 
 \textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
-\textbf{Orientador:} \orientador\newline\\
+\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\textbf{Orientador:} \orientador\newline\\
 \textbf{TÍTULO DO TRABALHO}\\
 \emph{\titulo}\newline
 
@@ -235,7 +253,7 @@ Adequação ao tempo disponível                     & 1,0                &     
 \end{table}
 
 \textbf{Aluno (a) 1:} \alunoum\newline\\
-\noindent\textbf{Aluno (a) 2:} \alunodois\newline\\
+\noindent\textbf{Aluno (a) 2:} \alunodois\newline\
 \textbf{Orientador:} \orientador\newline\\\\
 \textbf{TÍTULO DO TRABALHO}\\
 \emph{\titulo}\newline\\
@@ -274,8 +292,7 @@ Adequação ao tempo disponível                     & 1,0                &     
 \emph{\textbf{DECLARAÇÃO}}
 \end{center}
 \vspace{1cm}
-\hspace{1cm}Declaramos, para os devidos fins, que o professor \textbf{\profum}\hspace{1mm}participou como examinador da defesa do trabalho intitulado \titulo, desenvolvido pelos alunos \emph{\alunoum}\hspace{1mm}e \emph{\alunodois}, regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso de Sistemas de Informação do Centro Universitário Redentor.
-\egroup
+\hspace{1cm}Declaramos, para os devidos fins, que o professor \textbf{\profum}\hspace{1mm}participou como examinador da defesa do trabalho intitulado \titulo, desenvolvido pelos alunos \emph{\alunoum}\hspace{1mm}e \emph{\alunodois}, regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso de Sistemas de Informação do Centro Universitário Redentor.\egroup
 
 \vspace{3cm}
 
@@ -308,9 +325,7 @@ Professor de Trabalho de Conclusão II e Coordenador do Curso de Sistemas de Inf
 \emph{\textbf{DECLARAÇÃO}}
 \end{center}
 \vspace{1cm}
-
-\hspace{1cm}Declaramos, para os devidos fins, que o professor \textbf{\profdois}\hspace{1mm}participou como examinador da defesa do trabalho intitulado \titulo, desenvolvido pelos alunos \emph{\alunoum}\hspace{1mm}e \emph{\alunodois}, regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso de Sistemas de Informação do Centro Universitário Redentor.
-\egroup
+\hspace{1cm}Declaramos, para os devidos fins, que o professor \textbf{\profum}\hspace{1mm}participou como examinador da defesa do trabalho intitulado \titulo, desenvolvido pelos alunos \emph{\alunoum}\hspace{1mm}e \emph{\alunodois}, regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso de Sistemas de Informação do Centro Universitário Redentor.\egroup
 
 \vspace{3cm}
 
@@ -342,7 +357,8 @@ Professor de Trabalho de Conclusão II e Coordenador do Curso de Sistemas de Inf
 \emph{\textbf{DECLARAÇÃO}}
 \end{center}
 \vspace{1cm}
-\hspace{1cm}Declaramos, para os devidos fins, que o professor \textbf{\orientador}\hspace{1mm}participou como presidente da banca da defesa do trabalho intitulado \titulo, desenvolvido pelos alunos \emph{\alunoum}\hspace{1mm}e \emph{\alunodois}, regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso de Sistemas de Informação do Centro Universitário Redentor.
+\hspace{1cm}Declaramos, para os devidos fins, que o professor \textbf{\profum}\hspace{1mm}participou como presidente da defesa do trabalho intitulado \titulo, desenvolvido pelos alunos \emph{\alunoum}\hspace{1mm}e \emph{\alunodois}, regularmente matriculados na disciplina Trabalho de Conclusão de Curso II do 8º período do curso de Sistemas de Informação do Centro Universitário Redentor.
+
 \egroup
 
 \vspace{3cm}
